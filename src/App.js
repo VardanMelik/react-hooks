@@ -1,6 +1,7 @@
 import React from 'react';
 import ImperativeHandle from './components/ImperativeHandle/ImperativeHandle';
 import LayoutEffectHook from './components/LayoutEffect/LayoutEffectHook';
+import MemoHook from './components/MemoHook/MemoHook';
 import UseContextHook from './components/UseContextHook/UseContextHook';
 import UseEffectHook from './components/useEffect/useEffectHook';
 import UseRefHooks from './components/useRef/UseRefHooks';
@@ -18,7 +19,8 @@ function App() {
      {/*<UseRefHooks />*/}
      {/*<LayoutEffectHook />*/}
      {/*<ImperativeHandle/>*/}
-     <UseContextHook/>
+     {/*<UseContextHook/>*/}
+     <MemoHook />
     </div>
   );
 }
