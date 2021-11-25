@@ -1,4 +1,5 @@
 import React from 'react';
+import CallBackHook from './components/CallBack/CallBackHook';
 import ImperativeHandle from './components/ImperativeHandle/ImperativeHandle';
 import LayoutEffectHook from './components/LayoutEffect/LayoutEffectHook';
 import MemoHook from './components/MemoHook/MemoHook';
@@ -20,7 +21,8 @@ function App() {
      {/*<LayoutEffectHook />*/}
      {/*<ImperativeHandle/>*/}
      {/*<UseContextHook/>*/}
-     <MemoHook />
+     {/*<MemoHook />*/}
+     <CallBackHook />
     </div>
   );
 }
