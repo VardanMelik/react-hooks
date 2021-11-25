@@ -1,5 +1,7 @@
 import React from 'react';
+import ImperativeHandle from './components/ImperativeHandle/ImperativeHandle';
 import LayoutEffectHook from './components/LayoutEffect/LayoutEffectHook';
+import UseContextHook from './components/UseContextHook/UseContextHook';
 import UseEffectHook from './components/useEffect/useEffectHook';
 import UseRefHooks from './components/useRef/UseRefHooks';
 import ReducerTutorial from './components/UseStateHook/ReducerTutorial';
@@ -14,7 +16,9 @@ function App() {
      {/*<ReducerTutorial />*/}
      {/*<UseEffectHook />*/}
      {/*<UseRefHooks />*/}
-     <LayoutEffectHook />
+     {/*<LayoutEffectHook />*/}
+     {/*<ImperativeHandle/>*/}
+     <UseContextHook/>
     </div>
   );
 }
